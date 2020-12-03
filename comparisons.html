@@ -5,13 +5,13 @@
   <meta charset="utf-8" />
   <title>Latitude Analysis Dashboard</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-  
+
     <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" style="background-color: #2a8dc7;" href="landing.html">Latitude</a>
@@ -22,7 +22,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -43,56 +43,46 @@
           </div>
         </nav>
       </div>
- 
+
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 col-md-12">
-        <!-- Left box  -->
-        <div class="visualizationbox">
-          <h3 class="title">Cloudiness</h3>
-          <hr>
-          <img src="Visualizations/Latitude v Cloudiness.png".png class="vizualization rounded float-left" alt="Max Temperature Graph">
-          <p>This visualization shows little correlation between cloudiness and latitude.</p>
-        </div>
-      </div>
-      <div class="col-lg-5 col-md-12">
-        <!-- Right Box -->
+      <div>
         <div class="box">
-          <h5 class="title">Visualizations</h5>
+          <h3 class="title">Comparison: Latitude vs X</h3>
           <hr>
-
-
-          <div class="container">
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
+          <p>Click any plot to get an in-depth analysis.</p>
+          <div class="container" style="padding-bottom: 40px;">
+            <div class="row">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Max Temperature</div>
                 <a href="maxtemperature.html">
                   <img class="panel" src="Visualizations/Latitude v Max Temperature.png" alt="Max Temperature Image">
                 </a>
               </div>
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Humidity</div>
                 <a href="humidity.html">
                   <img class="panel" src="Visualizations/Latitude v Humidity.png" alt="Humidity Graph">
                 </a>
               </div>
             </div>
 
-            <div class="row" style="padding-bottom: 30px;">
-              <div class="col-6">
+            <div class="row">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Cloudiness</div>
                 <a href="cloudiness.html">
                   <img class="panel" src="Visualizations/Latitude v Cloudiness.png" alt="Cloudiness Graph">
                 </a>
+
               </div>
-              <div class="col-6">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title">vs. Wind Speed</div>
                 <a href="windspeed.html">
                   <img class="panel" src="Visualizations/Latitude v Wind Speed.png" alt="Wind Speed Graph">
                 </a>
               </div>
-
-
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
