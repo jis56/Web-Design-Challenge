@@ -18,15 +18,12 @@ In total, the webiste consists of 7 pages:
   * A paragraph describing the plot and its significance.
 
 * A "Comparisons" page that:
-
  * Contains all of the visualizations on the same page so we can easily visually compare them.
  * Uses a Bootstrap grid for the visualizations.
-
-  * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+ * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 
 
 * A "Data" page that:
-
  * Displays a responsive table containing the data used in the visualizations. The CSV file was converted to HTML as seen in the Resource folder.
  
  Most importantly, at the top of each page, there is a navigation menu that: 
