@@ -46,15 +46,15 @@ img{
     
 }
 .vizualization{
-    width:50%;
-    height:50%;
+    width:60%;
+    height:60%;
 }
 
 .title{
     color: #2a8dc7;  
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold; 
-    padding-top: 25px; 
+    margin-top: 30px; 
 }
 
 p{
@@ -65,18 +65,21 @@ p{
 
 .box {
     margin-top: 60px; 
-    margin-bottom: 62px; 
+    margin-bottom: 60px; 
     padding: 10px 20px 15px; 
     color:black;
     background-color: white; 
 
   }
 
+.sidevisualizationbox{
+    padding-bottom: 30px
+}
+
 .visualizationbox{
     margin-top: 60px; 
     margin-bottom: 62px; 
-    padding: 10px 20px 15px;
-    padding-bottom: 200px;
+    padding: 1px 20px 200px 20px;
     color:black;
     background-color: white; 
 }
@@ -93,16 +96,12 @@ p{
 background-color: #2a8dc7;
 }
 
-.navbar{
-    max-height: none; 
-    padding: inherit;
-}
-.navbar div{
-    margin: inherit; 
-    background-color: white;  
-}
 .navbar-brand{
     padding: 10px 
 }
+
+.row {
+    flex-direction: column;
+  }
 
 }
