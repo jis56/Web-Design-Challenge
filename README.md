@@ -1,4 +1,5 @@
 # Web-Design-Challenge
+https://jis56.github.io/Web-Design-Challenge/landing.html
 ----
 
 **Latitude Analysis Dashboard**: A dashboard website was created using the visualizations created from the Python API challenge (https://github.com/jis56/Python-API-Challenge). In building this dashboard, individual pages were created for each plot with explanations as well as a means to navigate between each of them. Additionally, a landing page, a comparison page, and a data page were also created.
