@@ -93,7 +93,11 @@ p{
 @media(max-width: 600px){
 
 .navbar-expand-lg{
-background-color: #2a8dc7;
+    background-color: #2a8dc7;
+}
+
+.navbar{
+    font-size: 20px;
 }
 
 .navbar-brand{
