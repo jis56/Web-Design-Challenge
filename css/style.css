@@ -100,14 +100,14 @@ p{
 }
 
 
-@media(max-width: 600px){
+@media(max-width: 800px){
 
 .navbar{
     font-size: 40px;
 }
 
 .navbar-brand{
-    padding: 10px 
+    padding: 10px ;
 }
 
 .row {
@@ -127,6 +127,17 @@ p{
     color:black;
     background-color: white; 
     margin-bottom: 10px;
+
 }
+
+}
+
+@media only screen and (max-device-width: 768px) {
+    .bg-light {
+        background-color: #2a8dc7!important;
+    }
+    
+    }
+    
 
 }
